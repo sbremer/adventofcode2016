@@ -8,3 +8,9 @@ __pycache__/
 
 # Pycharm project information
 .idea
+
+# Data Input files
+data/input_*
+
+# Private session cookie
+data/session.txt
