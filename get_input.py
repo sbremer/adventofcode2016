@@ -23,7 +23,7 @@ def get_input(day):
         get_input_from_web(day)
 
     with open('data/input_{}.txt'.format(day), 'r') as file:
-        return file.read()
+        return file.read().rstrip('\n')
 
 
 # Testing
